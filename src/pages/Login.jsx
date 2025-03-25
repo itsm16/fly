@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router";
 
 function Login() {
+  const navigate = useNavigate();
   return (
     <div className="h-screen flex items-center justify-center border bg">
       <div className="flex items-center w-[85%] h-[85%] bg-[#D9D9D9]/30 rounded-xl backdrop-blur-sm">
@@ -38,7 +39,7 @@ function Login() {
                   />
                 </div>
                 <Link className="text-xs mt-2 font-light text-gray-600">Forgot Password</Link>
-                <button className="bg-[#199FB1] mt-6 btn w-[100px] rounded-lg text-lg font-bold  shadow-none border-none">
+                <button onClick={()=>navigate("/dashboard")} className="bg-[#199FB1] mt-6 btn w-[100px] rounded-lg text-lg font-bold  shadow-none border-none">
                   Log in
                 </button>
               </div>
