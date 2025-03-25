@@ -1,2 +1,54 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
+.bg{
+    background-image: url(assets//orBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.graph{
+    background-image: url(assets/dashboard/graph.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.app-bg{
+    background-image: url(assets/wave.png);
+    background-size: 100vw 26vh;
+    background-repeat: no-repeat;
+    background-color: #eaeaeb;
+}
+
+.active{
+    background-image: url(assets/dashboard/active.png);
+    background-size: 100% 12vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.buyers{
+    background-image: url(assets/dashboard/buyers.png);
+    background-size: 100% 13vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.ads{
+    background-image: url(assets/dashboard/ads.png);
+    background-size: 100% 12vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.sell{
+    background-image: url(assets/dashboard/sell.png);
+    background-size: 100% 19vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.earn{
+    background-image: url(assets/dashboard/total_earning.png);
+    background-size: 80% 9vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
